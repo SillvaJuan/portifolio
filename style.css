@@ -264,3 +264,7 @@ a:hover{
     align-items: center;
     gap: 32px;
 }
+
+.sobre01, .Test-do-juan, .test-do-juan1, .test-do-juan2{
+    visibility: hidden;
+}
