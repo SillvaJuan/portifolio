@@ -265,5 +265,8 @@ a:hover{
     gap: 32px;
 }
 .SOBRE01{
-    background-color: #04d8e7;
+    color: #04d8e7;
+    align-items: center;
+    gap: 30px;
+
 }
