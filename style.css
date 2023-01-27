@@ -202,14 +202,17 @@ a:hover{
 }
 .card-wrapper::before{
     content: '';
-    position: absolute;
-    height: 100px;
-    width: 100px;
+    position: fixed;
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
     display: block;
     border: 1px solid #ffffff;
     opacity: 0;
     transition: 0.5 ease-in-out;
+}
+a, a:link, a:visited {
+    color:#04d8e7
 }
 .card-wrapper h2{
     font-size: 40px;
@@ -264,9 +267,22 @@ a:hover{
     align-items: center;
     gap: 32px;
 }
+.SOBRE{
+    border-bottom: 1px solid #7fffd4;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 15px;
+    
+}
 .SOBRE01{
-    color: #04d8e7;
-    align-items: center;
-    gap: 30px;
-
+    justify-content: center;
+    color: #1e1e2a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #7fffd4;
+    font-size: 0.8em;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 10px;
 }
